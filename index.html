@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>English Janala</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="img" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="max-w-[1920px] mx-auto justify-center items-center">
+
+    <header><div class="navbar bg-[#BADEFF]/26 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+           <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</a>
+    </li>
+        <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</a>
+    </li>
+        <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+    </li>
+      </ul>
+    </div>
+    <a href="#" class="flex items-center text-xl"><span>English</span><img src="./assets/logo.png"><span>জানালা</span></a>
+  </div>
+  <div class="navbar-end hidden lg:flex">
+    <ul class="menu gap-5 menu-horizontal px-1">
+        <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</a>
+    </li>
+        <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</a>
+    </li>
+        <li>
+     <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+    </li>
+    </ul>
+  </div>
+</div></header>
+
+<main>
+
+    <section class=" max-w-[1760px] mx-auto flex items-center justify-between gap-50">
+        <div class="content flex-1">
+            <h2 class="font-bold text-[67px]"><span class="text-[#00BCFF] ">English</span> is Easy!!</h2>
+            <h3 class="font-bangla text-[#18181B] text-[24px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে<br> অন্য একটি Level এ</h3>
+
+            <form class="">
+                <input  class="mt-[39px] py-[9px] px-[13px] rounded-[4px] border-sold border-gray-300" placeholder="Enter Your Name" type="text"><br>
+                <input  class="mt-[20px] py-[9px] px-[13px] rounded-[4px] border-sold border-gray-300" type="password"><br>
+                <button class="btn btn-outline btn-primary mt-[20px]">Get Started</button>
+            </form>
+
+        </div>
+        <div class="flex-1"><img src="./assets/hero-student.png" class="w-[734px]"></div>
+    </section>
+
+    <section class="mt-[200px]">
+          <h2 class="font-bold text-[51px] text-center"><span class="text-[#00BCFF] ">Let's</span> Learn Vocabularies</h2>
+
+          <div id="level-container" class="flex flex-wrap justify-center gap-5">
+
+          </div>
+    </section>
+
+    <section id="spin" class="flex justify-center items-center py-10 hidden">
+      <span class="loading loading-infinity loading-xl"></span>
+    </section>
+
+
+      <section class="flex justify-center mt-10">
+        <div class="join">
+  <div>
+    <label class="input validator join-item">
+      <input id="input-search" type="text" placeholder="Search Voc" required />
+    </label>
+    <!-- <div class="validator-hint hidden">Enter valid email address</div> -->
+  </div>
+  <button id="searchBtn" class="btn btn-primary join-item">Search</button>
+</div>
+      </section>
+
+
+
+
+
+
+
+
+
+    <section id="word-container" class="bg-gray-100 p-10 max-w-[1759px] mx-auto mt-[40px] rounded-[4px] grid grid-cols-3 gap-y-5 mb-[20px] ">
+           <!--<div class="w-[547px] bg-white rounded-[8px] py-[56px]">
+              <h2 class=" font-bold text-[2rem] text-center">Eager</h2>
+              <p class="text-center font-medium text-[1.1rem] mt-[24px]">Meaning /Pronounciation</p>
+              <h2 class="font-bangla font-semibold text-[2rem] text-center mt-[24px] text-[#18181B]">"আগ্রহী / ইগার"</h2>
+              <div class="flex justify-between px-5">
+                <p class="text-[#374957] p-[15px] text-[24px] rounded-sm bg-[#1A91FF]/10"><i class="fa-solid fa-circle-info"></i></p>
+                <p class="text-[#374957] p-[15px] text-[24px] rounded-sm bg-[#1A91FF]/10"><i class="fa-solid fa-volume-high"></i></p>
+              </div>
+           </div>-->
+
+           <div class="text-center col-span-full space-y-6">
+            <p class="text-xl font-medium text-gray-400 ">আপনি এখনো কোন Lesson Select করেন নি</p>
+            <h2 class="font-bold text-4xl">একটি Lesson Select করুন।</h2>
+           </div>
+       
+    </section>
+    <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+    <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <!--custom card-->
+    <div id="details-container" class="border-solid border-2 border-blue-100 p-10 rounded-[8px]">
+          <!-- <div class="">
+              <h2 class="text-2xl font-bold mb-[25px]">Eager (<i class="fa-solid fa-microphone-lines"></i>:ইগার)</h2>
+           </div>
+           <div class="">
+              <h2 class="text-2xl font-semibold mb-[10px]">Meaning</h2>
+              <p class="font-bangla">আগ্রহী</p>
+           </div>
+           <div class="mt-[25px]">
+            <h2 class="text-[24px] font-semibold">Example</h2>
+            <p class="text-[16px] text-[#00000080]">The kids were eager to open their gifts.</p>
+           </div>
+           <div class="mt-[25px]">
+             <h2 class="text-[24px] font-medium">সমার্থক শব্দ গুলো</h2>
+             <div class="flex gap-5 mt-[10px]">
+              <p class=" py-[6px] px-[20px] rounded-sm bg-blue-100 text-[20px]">Enthusiastic</p>
+              <p class=" py-[6px] px-[20px] rounded-sm bg-blue-100 text-[20px]">excited</p>
+              <p class=" py-[6px] px-[20px] rounded-sm bg-blue-100 text-[20px]">keen</p>
+             </div>
+           </div>-->
+           
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn btn-primary left-0">Complete Learning</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+</main>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

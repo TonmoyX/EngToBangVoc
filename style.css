@@ -1,0 +1,10 @@
+*{
+    font-family:"Poppins";
+}
+.font-bangla{
+    font-family: "Hind Siliguri";
+}
+.active{
+    background-color: #422ad5;
+    color:white;
+}
