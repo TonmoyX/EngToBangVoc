@@ -105,7 +105,7 @@ const loadWordDetail = async (id) => {
 };
 
 const displayDetail = (wordObj) => {
-  console.log(wordObj);
+  // console.log(wordObj);
   const detailsBox = document.getElementById("details-container");
   detailsBox.innerHTML = `<div class="">
               <h2 class="text-2xl font-bold mb-[25px]">${wordObj.word} (<i class="fa-solid fa-microphone-lines"></i>: ${wordObj.pronunciation})</h2>
